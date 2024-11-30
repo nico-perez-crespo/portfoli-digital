@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Home | Nico Pérez</title>
+    <link rel="shortcut icon" href="../images/logo.png"  type="image/x-icon">
+    <script src="../js/script.js"></script>
 </head>
 <body>
     <header>
@@ -12,6 +14,7 @@
             <a href="index.html">
                 <img src="../images/logo.png" alt="logo">
             </a>
+            <p id="watch"></p>
             <ul class="elements-list">                
                 <li><a class="nav-element" href="index.html#main">About</a></li>
                 <li><a class="nav-element" href="projects.html">Projects</a></li>
@@ -20,26 +23,125 @@
         </nav>
         <div class="banner">
             <h1 class="main-title">Welcome to my digital portfolio!</h1>
-            <p class="main-description">Let's introduce myself!</p>
-            <a href="">See my projects</a>
+            <a class="see-projects" href="projects.html#projects-general-container">See my projects</a>
         </div>
     </header>
     <main id="main">
-        <div>
-            <h3 id="about-me-subtitle">About me...</h3>
-            <p id="biography">Hi, I'm Nico Pérez Crespo, a 21-year-old junior full-stack developer with a passion for building functional and engaging applications. 
-            <br><br>
-            I hold a diploma in Multiplatform Application Development (DAM) and am currently studying Web Application Development (DAW) to strengthen my skills in both backend and frontend technologies. 
-            <br><br>
-            I'm a curious, self-motivated learner who thrives on tackling challenges and staying updated with the latest tech trends.</p>
+        <div class="about-container">
+            <div>
+                <h3 id="about-me-subtitle">About me...</h3>
+                <p id="biography">Hi, I'm Nico Pérez Crespo, a 21-year-old junior full-stack developer with a passion for building functional and engaging applications. 
+                <br><br>
+                I hold a diploma in Multiplatform Application Development (DAM) and am currently studying Web Application Development (DAW) to strengthen my skills in both backend and frontend technologies. 
+                <br><br>
+                I'm a curious, self-motivated learner who thrives on tackling challenges and staying updated with the latest tech trends.</p>
+            </div>
+            <div>
+                <img id="img-me" src="../images/me.jpg" alt="">
+            </div>
         </div>
-        <div>
-            <img id="img-me" src="../images/me.jpg" alt="">
+        <div class="technologies-container">
+            <h3 class="technologies-title">Programming languages</h3>
+            <div class="technologies">
+                <a class="technology" href="https://developer.mozilla.org/es/docs/Web/HTML">
+                    <img class="technology-image" src="../images/html5.png" alt="">
+                    <p class="technology-name">HTML</p>
+                </a>
+                <a class="technology" href="https://developer.mozilla.org/es/docs/Web/CSS">
+                    <img class="technology-image" src="../images/css.svg" alt="">
+                    <p class="technology-name">CSS</p>
+                </a>
+                <a class="technology" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                    <img class="technology-image" src="../images/JS.png" alt="">
+                    <p class="technology-name">JS</p>
+                </a>
+                <a class="technology" href="https://www.python.org/">
+                    <img class="technology-image" src="../images/python.png" alt="">
+                    <p class="technology-name">Python</p>
+                </a>
+                <a class="technology" href="https://www.java.com/es/">
+                    <img class="technology-image" src="../images/java.png" alt="">
+                    <p class="technology-name">Java</p>
+                </a>
+                <a class="technology" href="https://dotnet.microsoft.com/es-es/languages/csharp">
+                    <img class="technology-image" src="../images/csharp.svg" alt="">
+                    <p class="technology-name">C#</p>
+                </a>
+                <a class="technology" href="https://kotlinlang.org/">
+                    <img class="technology-image" src="../images/kotlin.png" alt="">
+                    <p class="technology-name">Kotlin</p>
+                </a>
+                <a class="technology" href="https://www.php.net/manual/es/intro-whatis.php">
+                    <img class="technology-image" src="../images/PHP-logo.svg.png" alt="">
+                    <p class="technology-name">PHP</p>
+                </a>                
+                <a class="technology" href="https://www.mysql.com/">
+                    <img class="technology-image" src="../images/MySQL-logo.png" alt="">
+                    <p class="technology-name">MySQL</p>
+                </a>
+                <a class="technology" href="https://www.postgresql.org/">
+                    <img class="technology-image" src="../images/postgre.png" alt="">
+                    <p class="technology-name">PostgreSQL</p>
+                </a>
+                <a class="technology" href="https://www.mongodb.com/es">
+                    <img class="technology-image" src="../images/mongo.webp" alt="">
+                    <p class="technology-name">MongoDB</p>
+                </a>                
+            </div>        
         </div>
-        
+        <div class="technologies-container">
+            <h3 class="technologies-title">Software technologies</h3>
+            <div class="technologies">
+                <a class="technology" href="https://www.sublimetext.com/">
+                    <img class="technology-image" src="../images/Sublime_Text_3_logo.png" alt="">
+                    <p class="technology-name">Sublime txt</p>
+                </a>
+                <a class="technology" href="https://netbeans.apache.org/front/main/index.html">
+                    <img class="technology-image" src="../images/Apache_NetBeans_Logo.svg.png" alt="">
+                    <p class="technology-name">NetBeans</p>
+                </a>
+                <a class="technology" href="https://code.visualstudio.com/">
+                    <img class="technology-image" src="../images/Visual_Studio_Code_1.35_icon.svg.png" alt="">
+                    <p class="technology-name">VSCode</p>
+                </a>
+                <a class="technology" href="https://visualstudio.microsoft.com/es/">
+                    <img class="technology-image" src="../images/Visual_Studio_Icon_2022.svg.png" alt="">
+                    <p class="technology-name">VStudio</p>
+                </a>
+                <a class="technology" href="https://developer.android.com/develop?hl=es-419">
+                    <img class="technology-image" src="../images/android.png" alt="">
+                    <p class="technology-name">Android St.</p>
+                </a>                
+                <a class="technology" href="https://www.mysql.com/products/workbench/">
+                    <img class="technology-image" src="../images/workbench.png" alt="">
+                    <p class="technology-name">WorkBench</p>
+                </a>  
+                <a class="technology" href="https://dbeaver.io/">
+                    <img class="technology-image" src="../images/DBeaver_logo.svg.png" alt="">
+                    <p class="technology-name">DBeaver</p>
+                </a>
+                <a class="technology" href="https://github.com/">
+                    <img class="technology-image" src="../images/github.png" alt="">
+                    <p class="technology-name">GitHub</p>
+                </a>                
+                <a class="technology" href="https://www.docker.com/">
+                    <img class="technology-image" src="../images/97_Docker_logo_logos-512.webp" alt="">
+                    <p class="technology-name">Docker</p>
+                </a>                   
+                <a class="technology" href="https://www.odoo.com/es_ES">
+                    <img class="technology-image" src="../images/odoo.png" alt="">
+                    <p class="technology-name">Odoo</p>
+                </a>  
+                <a class="technology" href="https://unity.com/es">
+                    <img class="technology-image" src="../images/unity.svg" alt="">
+                    <p class="technology-name">Unity</p>
+                </a>            
+            </div>        
+        </div>
     </main>
-    <footer> <!-- constant content-->
-        <p class="footer-text">
+    <footer> 
+        <!-- Constant content -->
+        <p class="footer-text" id="dynamic-footer">
             © Copyright 2024 by <a href="https://nicofreelance.es/" class="footer-link">Nico Pérez Crespo</a>. All rights reversed.
         </p>
     </footer>
