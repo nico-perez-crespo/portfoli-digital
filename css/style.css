@@ -89,18 +89,39 @@ footer{
 
 .footer-text{
     color: white;
-    text-align: center;
 }
 
 .footer-link{
     color: white;
 }
 
-
+.test{
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+}
+.separator-line{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.footer-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-column{
+    padding: 0px 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 /* responsive styles */
 /* mobile phone */
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .main-title{
         font-size: 35px;
     }
@@ -117,6 +138,27 @@ footer{
     main{
         padding: 30px;
         flex-direction: column;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+
+    .technology-image{
+        width: 150px;
+        height: 150px;
+    }
+    .subtitle{
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-name{
+        font-size: 25px;
+    }
+    .project-image{
+        width: 250px;
+    }
+    #projects{
+        gap: 20px;
     }
     #img-me{
         margin-top: 30px;
@@ -136,7 +178,7 @@ footer{
 }
 
 /* tablet */
-@media screen and (min-width:600px) and  (max-width:1200px)  {
+@media screen and (min-width:500px) and  (max-width:1200px)  {
     main{
         padding: 30px 40px;
         gap: 40px;
@@ -152,6 +194,16 @@ footer{
     }
     #form-container{
         padding-left: 20px;
+    }
+    .technology-image{
+        width: 100px;
+        height: 100px;
+    }
+    .project-image{
+        width: 200px;
+    }
+    #projects{
+        gap: 70px;
     }
 }
 
@@ -179,6 +231,19 @@ footer{
     }
     .main-title{
         font-size: 55px;
+    }
+    .technology-image{
+        width: 100px;
+        height: 100px;
+    }
+    .subtitle{
+        font-size: 35px;
+    }
+    .project-image{
+        width: 300px;
+    }
+    #projects{
+        gap: 80px;
     }
 }
 
@@ -234,10 +299,6 @@ main{
     text-decoration: none;
 }
 
-.technology-image{
-    width: 100px;
-    height: 100px;
-}
 
 .technology-name{
     color: black;
@@ -369,7 +430,6 @@ form{
 
 #projects{
     display: flex;
-    gap: 80px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
@@ -383,6 +443,7 @@ form{
     padding: 20px;
     text-decoration: none;
     color: aliceblue;
+    text-align: center;
 }
 
 .project:hover{
@@ -393,16 +454,51 @@ form{
 
 .project-image{
     margin-top: 20px;
-    width: 300px;
 }
 
 .project-name{
     text-decoration: underline;
-    font-size: 30px;
     text-align: center;
 }
 .subtitle{
     color: white;
     font-style: normal;
-    font-size: 35px;
+}
+
+/* how I made it */
+.content-section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-section-title {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 1.5rem;
+}
+
+.section-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+strong {
+    color: #000;
+}
+
+em {
+    font-style: italic;
+    color: #0073e6;
 }
