@@ -76,8 +76,8 @@ To view the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-
+   git clone https://github.com/nico-perez-crespo/portfoli-digital.git
+   ```
 2. Open the `html/index.html` file in a browser to view the site.
 
 ## 🤝 Contributions
